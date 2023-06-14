@@ -1,0 +1,10 @@
+#String
+str1 = 'Hello Students' #string str1
+str2 = ' how are you' #string str2  
+str1
+str2
+print (str1[0:5]) #printing first five character using slice operator  
+(str1[0:5])
+print (str1[4]) #printing 5th character of the string  
+print (str1*2) #printing the string twice  
+print (str1 + str2) #printing the concatenation of str1 and str2
