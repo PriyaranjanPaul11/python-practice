@@ -1,0 +1,12 @@
+#Tuple
+t  = ('hi', 'python', 2, 4) 
+t 
+print (t[1:]);  
+print (t[0:3]);  
+print (t);  
+print (t + t)
+print (t * 3)  
+print (type(t)) 
+#Lets try mutation 
+t[1] = "Bye"
+print (t)
