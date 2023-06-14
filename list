@@ -1,0 +1,10 @@
+l = [1,"Hi","Python","True"]
+print(l[3:])
+print(l[0:2])
+print(l)
+print(l+l)
+print(l*3)
+print(type(l))
+# lets try mutation
+l[1]="Bye"
+print(l)
