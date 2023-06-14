@@ -1,0 +1,23 @@
+#----ADVANCED----
+#list
+#ordered collection of items; sequence of items in a list
+shoplist =['apple','carrot','mango', 'banana']
+shoplist
+len(shoplist)
+print(shoplist)
+
+#add item to list
+shoplist.append('rice')
+shoplist
+
+#sort
+shoplist.sort()  #inplace sort
+shoplist
+
+#index/select
+shoplist[0]
+shoplist[0:4]
+
+#delete item
+del shoplist[0]
+shoplist
